@@ -1,0 +1,178 @@
+[
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 2.65,
+    "protein": 0.18,
+    "carbs": 0.06,
+    "fats": 0.20,
+    "fiber": 0
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 1.65,
+    "protein": 0.31,
+    "carbs": 0,
+    "fats": 0.036,
+    "fiber": 0
+  },
+  {
+    "id": "milk_toned",
+    "name": "Milk (Toned)",
+    "unit": "ml",
+    "baseQuantity": 1,
+    "calories": 0.6,
+    "protein": 0.032,
+    "carbs": 0.05,
+    "fats": 0.03,
+    "fiber": 0
+  },
+  {
+    "id": "curd",
+    "name": "Curd / Dahi",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 0.6,
+    "protein": 0.035,
+    "carbs": 0.04,
+    "fats": 0.03,
+    "fiber": 0
+  },
+  {
+    "id": "boiled_egg",
+    "name": "Egg",
+    "unit": "unit",
+    "baseQuantity": 1,
+    "calories": 78,
+    "protein": 6,
+    "carbs": 0.6,
+    "fats": 5,
+    "fiber": 0
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "unit": "unit",
+    "baseQuantity": 1,
+    "calories": 105,
+    "protein": 1.3,
+    "carbs": 27,
+    "fats": 0.3,
+    "fiber": 3
+  },
+  {
+    "id": "roti",
+    "name": "Plain Roti",
+    "unit": "unit",
+    "baseQuantity": 1,
+    "calories": 100,
+    "protein": 3,
+    "carbs": 18,
+    "fats": 1,
+    "fiber": 2
+  },
+  {
+    "id": "dal",
+    "name": "Dal (Cooked)",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 1.16,
+    "protein": 0.09,
+    "carbs": 0.20,
+    "fats": 0.004,
+    "fiber": 0.08
+  },
+  {
+    "id": "kala_chana",
+    "name": "Kala Chana (Cooked)",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 1.64,
+    "protein": 0.09,
+    "carbs": 0.27,
+    "fats": 0.026,
+    "fiber": 0.08
+  },
+  {
+    "id": "rajma",
+    "name": "Rajma (Cooked)",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 1.27,
+    "protein": 0.087,
+    "carbs": 0.22,
+    "fats": 0.005,
+    "fiber": 0.064
+  },
+  {
+    "id": "peanuts_roasted",
+    "name": "Peanuts",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 5.67,
+    "protein": 0.258,
+    "carbs": 0.16,
+    "fats": 0.49,
+    "fiber": 0.085
+  },
+  {
+    "id": "rice_cooked",
+    "name": "White Rice (Cooked)",
+    "unit": "g",
+    "baseQuantity": 1,
+    "calories": 1.3,
+    "protein": 0.024,
+    "carbs": 0.28,
+    "fats": 0.003,
+    "fiber": 0.004
+  },
+  {
+    "id": "milk_full_cream",
+    "name": "Milk (Full Cream)",
+    "unit": "ml",
+    "baseQuantity": 1,
+    "calories": 0.89,
+    "protein": 0.033,
+    "carbs": 0.048,
+    "fats": 0.065,
+    "fiber": 0
+  },
+  {
+  "id": "oats_normal",
+  "name": "Oats (Normal)",
+  "unit": "g",
+  "baseQuantity": 1,
+  "calories": 3.89,
+  "protein": 0.169,
+  "carbs": 0.66,
+  "fats": 0.069,
+  "fiber": 0.106
+},
+{
+  "id": "oats_high_protein",
+  "name": "Oats (High Protein)",
+  "unit": "g",
+  "baseQuantity": 1,
+  "calories": 4.0,
+  "protein": 0.22,
+  "carbs": 0.60,
+  "fats": 0.07,
+  "fiber": 0.08
+},
+{
+  "id": "protein_whey_concentrate",
+  "name": "Protein Powder",
+  "unit": "g",
+  "baseQuantity": 1,
+  "calories": 4.0,
+  "protein": 0.75,
+  "carbs": 0.10,
+  "fats": 0.06,
+  "fiber": 0.02
+}
+]

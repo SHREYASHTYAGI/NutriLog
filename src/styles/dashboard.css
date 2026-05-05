@@ -1,0 +1,90 @@
+:root{
+  --bg:#0f0f0f;
+  --card:#1a1a1a;
+  --muted:rgba(255,255,255,0.6);
+  --glass: rgba(255,255,255,0.02);
+  --accent-green: #3be7a7;
+  --accent-cyan: #55e6ff;
+  --accent-orange: #ff9b4a;
+}
+
+body{
+  background: radial-gradient(1200px 400px at 10% 10%, rgba(20,20,20,0.4), transparent), var(--bg);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #e6eef8;
+}
+
+.ft-app-root{min-height:100vh; display:flex; flex-direction:column;}
+
+.ft-shell{display:grid; grid-template-columns:240px 1fr; gap:24px; padding:24px;}
+
+.ft-main{padding:6px; display:grid; grid-template-columns: repeat(12, 1fr); gap:20px; align-content:start;}
+
+@media (max-width:900px){
+  .ft-shell{grid-template-columns:1fr;}
+  .ft-main{grid-template-columns:1fr; padding:16px}
+}
+
+/* Card layout grid helpers */
+.col-span-4{grid-column: span 4 / span 4}
+.col-span-6{grid-column: span 6 / span 6}
+.col-span-8{grid-column: span 8 / span 8}
+.col-span-12{grid-column: span 12 / span 12}
+
+.ft-navbar{height:72px; display:flex; align-items:center; justify-content:space-between; padding:0 24px; background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border-bottom:1px solid rgba(255,255,255,0.03);}
+
+.ft-card{background:var(--card); border-radius:18px; padding:20px; box-shadow: 0 8px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03); transition: transform .22s ease, box-shadow .22s ease;}
+.ft-card:hover{transform:translateY(-4px) scale(1.01); box-shadow:0 18px 40px rgba(2,6,23,0.7)}
+
+.ft-main .ft-card{min-height:160px}
+
+.fade-in{animation:ft-fade .45s ease both}
+@keyframes ft-fade{from{opacity:0; transform: translateY(6px)} to{opacity:1; transform:none}}
+
+
+.ft-chart-wrap {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  align-items: stretch;
+}
+
+/* Chart container */
+.ft-chart {
+  flex: 1;
+  min-height: 280px;
+  height: 40vh;
+  max-height: 420px;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .ft-chart {
+    height: 35vh;
+    max-height: 380px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .ft-chart-wrap {
+    flex-direction: column;
+  }
+
+  .ft-chart {
+    width: 100%;
+    height: 300px;
+    max-height: none;
+  }
+}
+
+.ft-chart canvas {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+@media (max-width: 360px) {
+  .ft-chart {
+    height: 260px;
+  }
+}

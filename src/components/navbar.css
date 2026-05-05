@@ -1,0 +1,16 @@
+.ft-navbar{display:flex; align-items:center; justify-content:space-between; gap:16px}
+.ft-navbar-left{display:flex; align-items:center; gap:18px}
+.ft-logo{font-weight:700; font-size:18px; color:var(--accent-cyan)}
+.ft-nav-links{display:flex; gap:8px}
+.nav-btn{background:transparent; color:var(--muted); border:none; padding:8px 12px; border-radius:999px; cursor:pointer; transition:all .18s}
+.nav-btn:hover{background:rgba(255,255,255,0.02); transform:scale(1.02)}
+.nav-btn.active{background:linear-gradient(90deg, rgba(85,230,255,0.06), rgba(59,231,167,0.04)); color:#fff}
+.ft-navbar-right{display:flex; gap:10px}
+.btn{padding:8px 14px; border-radius:999px; border:1px solid rgba(255,255,255,0.04); cursor:pointer; background:transparent; color:var(--muted)}
+.btn.primary{background:linear-gradient(90deg,var(--accent-green), var(--accent-cyan)); color:#071218; box-shadow:0 6px 18px rgba(59,231,167,0.08)}
+.btn.ghost{background:transparent}
+.btn.primary:hover {
+  transform:  scale(1.08) translateY(-1px);
+ 
+  transition: 0.2s ease-in-out;
+}
